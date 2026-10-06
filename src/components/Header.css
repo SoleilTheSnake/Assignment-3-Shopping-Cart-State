@@ -7,7 +7,17 @@
   justify-content: space-between;
   align-items: center;
 }
-
+.cart-icon {
+  width: 32px;
+  height: 32px;
+  background: #000000;
+}
+.cart-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ffffff;
+}
 .logo {
   font-size: 24px;
   font-weight: bold;
