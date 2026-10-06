@@ -1,0 +1,43 @@
+.app-header {
+  background: rgb(0, 0, 0);
+  border-bottom: 1px solid #288942;
+  padding: 0 20px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  color: #288942;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #ff882b;
+}
+
+.nav-link:hover {
+  color: #f2ee52;
+}
+
+.post-btn {
+  background: #288942;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.post-btn:hover {
+  background: #f2ee52;
+}
