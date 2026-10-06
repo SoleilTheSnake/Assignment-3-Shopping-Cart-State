@@ -1,11 +1,15 @@
 import './App.css';
 import ProductCard from './components/ProductCard';
 import Header from './components/Header';
+import Footer from './components/Footer';
+import Hero from './components/Hero';
 
 function App() {
   return (
+    
     <div className="App">
       <Header />
+       <Hero />
       <div className="product-list">
         <ProductCard 
           title="Waterfall Glitter Tumbler"
@@ -34,6 +38,7 @@ This official UNDERTALE bath mat was designed by Audrey Waner to celebrate the g
           img="https://tinyurl.com/nu8re9xx"
         />
       </div>
+      <Footer />
     </div>
   );
 }
